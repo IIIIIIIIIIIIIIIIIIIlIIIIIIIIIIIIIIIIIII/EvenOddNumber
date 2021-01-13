@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+        
         System.out.println("Введите число:");
 
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +26,7 @@ public class Solution {
                     number /= 10;
             }
         System.out.println("Even: " + event + " Odd: " + odd);
-            scanner.close();
+        scanner.close();
 
     }
 
