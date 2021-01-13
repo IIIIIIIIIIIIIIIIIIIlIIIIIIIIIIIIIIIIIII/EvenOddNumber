@@ -26,7 +26,7 @@ public class Solution {
                     number /= 10;
             }
         System.out.println("Even: " + event + " Odd: " + odd);
-        scanner.close();
+            scanner.close();
 
     }
 
